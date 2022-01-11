@@ -1,0 +1,29 @@
+--create table Product(ProductNumber number primary key, ProductName varchar(8), UnitPrice
+--number);
+--insert into SalesPerson values (220, 'Somu',);
+--Sales Person(SalesPersonNumber, SalesPersonName, CommPercentage, YearHire, OfficeNumber)
+--
+--Customer (CustomerNumber, CustomerName, SalesPersonNumber, HeadQuarterCity)
+--
+--Customer Employee (CustomerNumber, EmployeeNumber, EmployeeName, Title)
+--
+--Product (ProductNumber, ProductName, UnitPrice)
+--
+--Sales (SalesPersonNumber, ProductNumber, Quantity)
+--
+--Office (OfficeNumber, Telephone, Size)
+--create table SalesPerson(SalesPersonNumber number primary key, SalesPersonName varchar(8),
+--CommPercentage number, YearHire number, OfficeNumber number, foreign key(OfficeNumber)
+--references Office(OfficeNumber));
+--create table SalesPerson(SalesPersonNumber number primary key, CommPercentage varchar(5),YearHire number,OfficeNumber number,foreign key(OfficeNumber) references Office(officeNumber)); 
+--create table Customer(CustomerNumber number primary key, CustomerName varchar(50),SalesPersonNumber number,HeadQuarterCity varchar(50));
+--create table CustomerEmployee(CustomerNumber number primary key,EmployeeNumber number,EmployeeName varchar(40),Title varchar(50));
+--create table Product(ProductNumber varchar(30) primary key,ProductName varchar(50),Unitprice varchar(20))
+--create table Sales(SalesPersonNumber number primary key,ProductNumber varchar(30),Quantity varchar(20));
+--create table Office (officeNumber number primary key,Telephone number,SizeInfo varchar(20));
+--insert into salesperson values(13546,'10%',2018,9987067534);
+--insert into salesperson values(13547,'11%',2018,9987067534);
+--insert into salesperson values(13548,'9%',2018,9987067434);
+--insert into salesperson values(13549,'10%',2019,9987067634);
+insert into salesperson values(135551,'15%',2020,9987869534);
+
